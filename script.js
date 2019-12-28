@@ -113,3 +113,16 @@ console.log('This is my message from feature!!' + ' ' + message)
 
 //  ES6の記法
 console.log(`This is my message from feature!! ${message}`)
+
+var a = function() {
+    return message
+}
+console.log(`The message is ${a()}`)
+
+var success = "success"
+if (message.indexOf(success) > -1) {
+    // var newmessage = message.substr(0, message.indexOf(success))
+    var newmessage = message.split(success)
+    newmessage = newmessage.join('')
+    console.log(newmessage)
+} 
