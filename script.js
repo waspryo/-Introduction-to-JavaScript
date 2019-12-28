@@ -126,3 +126,9 @@ if (message.indexOf(success) > -1) {
     newmessage = newmessage.join('')
     console.log(newmessage)
 } 
+
+if (1 === '1') {
+    console.log('hey man')
+} else {
+    console.log('who are u?')
+}
