@@ -153,3 +153,18 @@ console.log(true !== 1)
 console.log('0' == false)
 
 console.log(null == undefined)
+
+function return_only_10_plus(){
+    let initial_array = [1, 21, 5, 6, 42, 8, 3, 10, 15]
+    //Populate the final array only with numbers greated than 10
+    let final_array = [];
+    
+    for (let i = 0; i < initial_array.length; i++){
+        if(initial_array[i] > 10) {
+         final_array.push(initial_array[i])
+        }
+    }
+    console.log(final_array)
+}
+ 
+return_only_10_plus()
