@@ -93,3 +93,23 @@ console.log(math3)
 console.log(math4)
 console.log(math5)
 
+function evens(){
+    var numbers = [1,2,3,4,5];
+    
+    return numbers.map(function(elem) {
+        return elem * 2;
+    })
+}
+
+/***********************
+ * String Concatenation and
+ * Interpolation
+ */
+
+ var message = "I'll be success"
+
+//  ES5の記法
+console.log('This is my message from feature!!' + ' ' + message)
+
+//  ES6の記法
+console.log(`This is my message from feature!! ${message}`)
