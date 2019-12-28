@@ -127,8 +127,29 @@ if (message.indexOf(success) > -1) {
     console.log(newmessage)
 } 
 
-if (1 === '1') {
+var a = 2
+var b = 2
+
+var a = true
+var b = false
+
+if (a == b) {
     console.log('hey man')
+} else if (a < b) {
+    console.log('ok buddy')
 } else {
     console.log('who are u?')
 }
+
+console.log(a == b)
+console.log(a > b)
+console.log(a < b)
+console.log(a >= b)
+console.log(a <= b)
+
+console.log(true != false)
+console.log(true !== 1)
+
+console.log('0' == false)
+
+console.log(null == undefined)
