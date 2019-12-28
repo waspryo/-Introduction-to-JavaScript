@@ -43,7 +43,7 @@ console.log(onigiriDayo)
  * Basic Operations
  */
 
-let str = 'Nice guy, You are really awsome !'
+var str = 'Nice guy, You are really awsome !'
 str.search('i')
 console.log(str.search('g'))
 console.log(str.indexOf('u'))
@@ -54,3 +54,28 @@ console.log(ary[4])
 // length = prpperty
 console.log(ary.length)
 console.log(ary1)
+
+/*****************************
+ * sentence
+ */
+var str = 'hello world'
+
+var arr = str.split(' ')
+
+var str2 = arr.join(' ')
+
+var arr2 = [1, 2, 3, 4, 5]
+
+console.log(arr2)
+arr2.push(5.5,6)
+console.log(arr2)
+
+for (var elem of arr2) {
+    result = elem * 2
+}
+
+var arr3 = arr2.map(function(elem) {
+    return elem + 5
+})
+
+console.log(arr3)
