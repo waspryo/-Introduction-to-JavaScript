@@ -49,7 +49,9 @@ console.log(str.search('g'))
 console.log(str.indexOf('u'))
 
 var ary = str.split(' ')
+var ary1 = ary.join(' ')
 console.log(ary[4])
 // length = prpperty
 console.log(ary.length)
+console.log(ary1)
 
