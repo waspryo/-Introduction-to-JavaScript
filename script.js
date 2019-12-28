@@ -1,7 +1,10 @@
-message = 'Hello world'
+messaging('Hello world')
 
-message = 5
+messaging(5)
+// 最後のバリューが実行される
+messaging('something')
 
-console.log(message)
-
-message = 'something'
+message = 'nice' 
+function messaging(message) {
+    console.log(message)
+}
