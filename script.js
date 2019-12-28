@@ -168,3 +168,28 @@ function return_only_10_plus(){
 }
  
 return_only_10_plus()
+
+function num() {
+    return 4
+}
+console.log(num())
+
+var a = function() {
+    return 5
+}
+console.log(a())
+
+a = function() {
+    return 'nice'
+}
+console.log(a())
+
+var a = (paramA, paramB, paramC, paramD) => {
+    console.log(paramA)
+    console.log(paramB)
+    console.log(paramC)
+    console.log(paramD)
+    return (paramC - paramB)
+}
+var arr = [54,324,12, 120]
+console.log(a(...arr)) 
