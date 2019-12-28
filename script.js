@@ -43,7 +43,13 @@ console.log(onigiriDayo)
  * Basic Operations
  */
 
-let str = 'Nice guy'
+let str = 'Nice guy, You are really awsome !'
 str.search('i')
 console.log(str.search('g'))
 console.log(str.indexOf('u'))
+
+var ary = str.split(' ')
+console.log(ary[4])
+// length = prpperty
+console.log(ary.length)
+
