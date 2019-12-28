@@ -38,3 +38,12 @@ console.log(onigiri)
 const onigiriDayo = ['okaka']
 onigiriDayo.push('ume')
 console.log(onigiriDayo)
+
+/******************************
+ * Basic Operations
+ */
+
+let str = 'Nice guy'
+str.search('i')
+console.log(str.search('g'))
+console.log(str.indexOf('u'))
