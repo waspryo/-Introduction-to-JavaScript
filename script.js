@@ -78,4 +78,18 @@ var arr3 = arr2.map(function(elem) {
     return elem + 5
 })
 
+
 console.log(arr3)
+
+var math1 = 10 + 2
+var math2 = 10 - 5
+var math3 = 10 * 3
+var math4 = 10 / 4
+var math5 = Math.floor(math4)
+
+console.log(math1)
+console.log(math2)
+console.log(math3)
+console.log(math4)
+console.log(math5)
+
