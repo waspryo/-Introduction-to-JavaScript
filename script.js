@@ -54,4 +54,3 @@ console.log(ary[4])
 // length = prpperty
 console.log(ary.length)
 console.log(ary1)
-
