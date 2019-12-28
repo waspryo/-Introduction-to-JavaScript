@@ -193,3 +193,11 @@ var a = (paramA, paramB, paramC, paramD) => {
 }
 var arr = [54,324,12, 120]
 console.log(a(...arr)) 
+
+var texts = 'hey man what is up?'
+if (texts.indexOf(texts) > -1) {
+    // var newmessage = message.substr(0, message.indexOf(success))
+    var newmessage = texts.split(success)
+    newmessage = newmessage.join('')
+    console.log(newmessage)
+} 
